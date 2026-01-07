@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Tourism</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+     <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                barlow: ['Barlow', 'sans-serif'],
+                barlowCondensed: ['Barlow Condensed', 'sans-serif'],
+                bellefair: ['Bellefair', 'serif'],
+            }
+            }
+        }
+        }
+    </script>
+    
+</head>
+<body  class="bg-[url('assets/home/background-home-desktop.jpg')] bg-cover bg-center bg-no-repeat">
+    <header class="flex -space-x-8 pt-10">
+        <div class="flex items-center z-10 gap-16 pl-16">
+            <img src="assets/shared/logo.svg" alt="" class="w-6">
+            <div class="bg-[#979797] h-[1px] w-[560px] ">
+
+            </div>
+        </div>
+        <div class="bg-[rgba(255,255,255,0.05)] px-[64px] flex gap-12 items-center w-full h-[96px] justify-end backdrop-blur-lg">
+                <nav >
+                    <a href="" class="flex gap-3">
+                        <div class="font-barlowCondensed font-bold text-[16px] tracking-[2.7px] text-white">
+                            00
+                        </div>
+                        <div class="font-barlowCondensed font-normal text-[16px] tracking-[2px] text-white">HOME</div>
+                    </a>
+                </nav>
+                <nav >
+                    <a href="" class="flex gap-3">
+                        <div class="font-barlowCondensed font-bold text-[16px] tracking-[2.7px] text-white">
+                            01
+                        </div>
+                        <div class="font-barlowCondensed font-normal text-[16px] tracking-[2px] text-white">DESTINATION</div>
+                    </a>
+                </nav>
+                <nav >
+                    <a href="" class="flex gap-3">
+                        <div class="font-barlowCondensed font-bold text-[16px] tracking-[2.7px] text-white">
+                            02
+                        </div>
+                        <div class="font-barlowCondensed font-normal text-[16px] tracking-[2px] text-white">CREW</div>
+                    </a>
+                </nav>
+                <nav >
+                    <a href="" class="flex gap-3">
+                        <div class="font-barlowCondensed font-bold text-[16px] tracking-[2.7px] text-white">
+                            03
+                        </div>
+                        <div class="font-barlowCondensed font-normal text-[16px] tracking-[2px] text-white">TECHNOLOGY</div>
+                    </a>
+                </nav>
+            </div>
+    </header>
+    <section class="min-h-screen flex items-center">
+  <div class="max-w-[1110px] w-full mx-auto flex justify-between items-center px-6">
+    <div class="max-w-[540px] w-full flex flex-col gap-6">
+      <h5 class="font-barlowCondensed text-[28px] text-[#d0d6f9] tracking-[4px]">
+        SO YOU WANT TO TRAVEL TO
+      </h5>
+
+      <h2 class="font-bellefair text-[144px] leading-none text-white">
+        SPACE
+      </h2>
+
+      <p class="font-barlow text-[18px] leading-[1.8] text-[#d0d6f9] tracking-[0] font-normal">
+        Let's face it; if you want to go to space, you might as well genuiely go to outer
+        space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly 
+        out of this world experinece!
+      </p>
+    </div>
+    <div class="h-[272px] w-[272px] bg-white rounded-full flex items-center justify-center">
+      <h5 class="font-bellefair text-[32px] text-[#0B0D17] tracking-[2px]">
+        EXPLORE
+      </h5>
+    </div>
+
+  </div>
+</section>
+</body>
+</html>
