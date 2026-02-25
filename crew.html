@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Tourism</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Crew</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,23 +14,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-        <script>
-            tailwind.config = {
-            theme: {
-                extend: {
-                fontFamily: {
-                    barlow: ['Barlow', 'sans-serif'],
-                    barlowCondensed: ['Barlow Condensed', 'sans-serif'],
-                    bellefair: ['Bellefair', 'serif'],
-                }
-                }
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                barlow: ['Barlow', 'sans-serif'],
+                barlowCondensed: ['Barlow Condensed', 'sans-serif'],
+                bellefair: ['Bellefair', 'serif'],
             }
             }
-        </script>
-    
+        }
+        }
+    </script>
 </head>
-<body  class="bg-[url('assets/home/background-home-mobile.jpg')] md:bg-[url('assets/home/background-home-tablet.jpg')] lg:bg-[url('assets/home/background-home-desktop.jpg')] relative bg-cover bg-center bg-no-repeat min-h-screen">
+<body class="bg-[url(assets/crew/background-crew-mobile.jpg)] md:bg-[url(assets/crew/background-crew-tablet.jpg)] lg:bg-[url(assets/crew/background-crew-desktop.jpg)] bg-no-repeat bg-cover min-h-screen">
     <header class="flex justify-between py-6 px-6 md:py-0 md:pl-10 md:pr-0 lg:pt-10 lg:px-0 lg:-space-x-8 ">
         <div class="flex items-center  gap-10 lg:pl-14">
             <img src="assets/shared/logo.svg" alt="" class="w-10 lg:w-12 md:mr-10">
@@ -41,7 +38,7 @@
             
         </div>
         <div class="flex md:hidden lg:hidden" id="icon-hamburger">
-            <img src="assets/shared/icon-hamburger.svg" class="w-6 h-6" alt="" >
+            <img src="assets/shared/icon-hamburger.svg" class="w-6 h-6" alt="">
         </div>
         <div class="bg-[rgba(255,255,255,0.05)] px-[60px] flex gap-10 items-center w-full h-[96px] justify-end backdrop-blur-lg hidden md:flex lg:flex">
                 <nav class="nav-link flex items-center gap-2 h-full border-b-2 border-transparent">
@@ -79,7 +76,7 @@
             </div>
             
     </header>
-<div id="mobile-menu" class="fixed top-0 right-0 h-screen w-[70%] bg-white/5 backdrop-blur-lg flex flex-col translate-x-full transition-transform duration-300 md:hidden z-50">
+    <div id="mobile-menu" class="fixed top-0 right-0 h-screen w-[70%] bg-white/5 backdrop-blur-lg flex flex-col translate-x-full transition-transform duration-300 md:hidden z-50">
     <div class="flex justify-end p-6">
         <img src="assets/shared/icon-close.svg" class="w-6 h-6 cursor-pointer" id="icon-close">
     </div>
@@ -102,31 +99,47 @@
         </a>
     </div>
 </div>
-    <section class="min-h-screen flex items-center">
-        <div class=" flex flex-col py-6 lg:max-w-[1110px] lg:py-0 w-full mx-auto justify-between items-center px-6 lg:flex-row">
-            <div class="max-w-[540px] w-full flex items-center flex-col gap-6 lg:items-start">
-            <h5 class="font-barlowCondensed text-[16px] tracking-[0.15] md:text-[28px] tracking-[4px] lg:text-[28px] text-[#d0d6f9] lg:tracking-[4px]">
-                SO YOU WANT TO TRAVEL TO
-            </h5>
-
-            <h2 class="font-bellefair text-[80px] md:text-[144px] lg:text-[144px] leading-none text-white">
-                SPACE
-            </h2>
-
-            <p class="font-barlow text-center text-[15px] leading-[1.8] text-[#d0d6f9] tracking-[0] font-normal md:text-[16px] lg:text-start lg:text-[18px]">
-                Let's face it; if you want to go to space, you might as well genuiely go to outer
-                space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly 
-                out of this world experinece!
-            </p>
+    <section class=" flex flex-col gap-2 p-6 md:pb-0">
+        <div class="flex flex-col gap-6 lg:px-20">
+            <div class="flex gap-6 uppercase justify-center items-center text-white font-barlowCondensed text-[16px] md:justify-start md:text-[20px]">
+                <span class="text-white text-opacity-25 " >02</span>
+                <span>Meet your crew</span>
             </div>
-            <div class="h-[382px] flex justify-center items-center lg:h-auto lg:justify-start lg:items-start">
-                <div class="h-[144px] w-[144px] md:h-[272px] md:w-[272px] lg:h-[272px] lg:w-[272px] bg-white rounded-full flex items-center justify-center">
-                    <h5 class="font-bellefair text-[18px] md:text-[32px] lg:text-[32px] text-[#0B0D17] tracking-[1.4px]">
-                        EXPLORE
-                    </h5>
+            <div class="flex flex-col gap-8 lg:flex-row items-center ">
+                <div class=" flex flex-col gap-10 ">
+                    <div class="flex flex-col gap-6 pt-10 md:px-20  lg:px-20 lg:justify-between">
+                        <div class="flex flex-col gap-6 ">
+                            <div class="flex flex-col justify-center items-center gap-2 font-normal font-bellefair text-white uppercase lg:justify-start lg:items-start">
+                                <span class=" text-[16px] text-white text-opacity-50 md:text-[24px]" id="title">Commander </span>
+                                <span class="text-[24px] md:text-[40px]" id="title-holder" >Douglas Hurley</span>
+                            </div>
+                            <div class="text-center font-barlow text-[#D0D6f9] leading-[1.8] text-[15px] md:text-[18px] lg:text-start" id="title-description">
+                                Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
+                            </div>
+                        </div>
+                        <div class="flex gap-2 justify-center items-center lg:justify-start lg:items-end">
+                            <div class="flex gap-4 justify-center items-center" id="crew-nav">
+                                <button class="bg-white bg-opacity-25 h-[10px] w-[10px] relative rounded-full crew-btn navigation-btn" data-crew="crew1">
+                                    <div class="dot bg-white w-full h-full rounded-full absolute inset-0 scale-0 transition-transform duration-300"></div>
+                                </button>
+                                <button class="bg-white bg-opacity-25 h-[10px] w-[10px] relative rounded-full crew-btn navigation-btn" data-crew="crew2">
+                                    <div class="dot bg-white w-full h-full rounded-full absolute inset-0 scale-0 transition-transform duration-300"></div>
+                                </button>
+                                <button class="bg-white bg-opacity-25 h-[10px] w-[10px] relative rounded-full crew-btn navigation-btn" data-crew="crew3">
+                                    <div class="dot bg-white w-full h-full rounded-full absolute inset-0 scale-0 transition-transform duration-300"></div>
+                                </button>
+                                <button class="bg-white bg-opacity-25 h-[10px] w-[10px] relative rounded-full crew-btn navigation-btn" data-crew="crew4">
+                                    <div class="dot bg-white w-full h-full rounded-full absolute inset-0 scale-0 transition-transform duration-300"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative flex justify-center">
+                    <img src="assets/crew/image-douglas-hurley.webp" class="w-[271.24px] h-[340px] md:w-[445px] md:h-[560px] lg:w-[510px] lg:h-[680px] lg:max-w-none" alt="" id="title-img">
+                    <div class="absolute bottom-0 left-0 w-full h-[60px] bg-gradient-to-t from-[#0b0e17] to-transparent"></div>
                 </div>
             </div>
-
         </div>
     </section>
     <script src="script.js"></script>

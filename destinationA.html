@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Tourism</title>
+    <title>Destination A</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,24 +15,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-        <script>
-            tailwind.config = {
-            theme: {
-                extend: {
-                fontFamily: {
-                    barlow: ['Barlow', 'sans-serif'],
-                    barlowCondensed: ['Barlow Condensed', 'sans-serif'],
-                    bellefair: ['Bellefair', 'serif'],
-                }
-                }
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                barlow: ['Barlow', 'sans-serif'],
+                barlowCondensed: ['Barlow Condensed', 'sans-serif'],
+                bellefair: ['Bellefair', 'serif'],
             }
             }
-        </script>
-    
+        }
+        }
+    </script>
 </head>
-<body  class="bg-[url('assets/home/background-home-mobile.jpg')] md:bg-[url('assets/home/background-home-tablet.jpg')] lg:bg-[url('assets/home/background-home-desktop.jpg')] relative bg-cover bg-center bg-no-repeat min-h-screen">
-    <header class="flex justify-between py-6 px-6 md:py-0 md:pl-10 md:pr-0 lg:pt-10 lg:px-0 lg:-space-x-8 ">
+<body class="bg-[url(assets/destination/background-destination-mobile.jpg)] md:bg-[url(assets/destination/background-destination-tablet.jpg)] lg:bg-[url(assets/destination/background-destination-desktop.jpg)] bg-cover bg-no-repeat min-h-screen">
+<header class="flex justify-between py-6 px-6 md:py-0 md:pl-10 md:pr-0 lg:pt-10 lg:px-0 lg:-space-x-8 ">
         <div class="flex items-center  gap-10 lg:pl-14">
             <img src="assets/shared/logo.svg" alt="" class="w-10 lg:w-12 md:mr-10">
             <div class="bg-[#979797] h-[1px] w-[520px] hidden lg:inline-flex z-10">
@@ -41,7 +39,7 @@
             
         </div>
         <div class="flex md:hidden lg:hidden" id="icon-hamburger">
-            <img src="assets/shared/icon-hamburger.svg" class="w-6 h-6" alt="" >
+            <img src="assets/shared/icon-hamburger.svg" class="w-6 h-6" alt="">
         </div>
         <div class="bg-[rgba(255,255,255,0.05)] px-[60px] flex gap-10 items-center w-full h-[96px] justify-end backdrop-blur-lg hidden md:flex lg:flex">
                 <nav class="nav-link flex items-center gap-2 h-full border-b-2 border-transparent">
@@ -79,6 +77,7 @@
             </div>
             
     </header>
+
 <div id="mobile-menu" class="fixed top-0 right-0 h-screen w-[70%] bg-white/5 backdrop-blur-lg flex flex-col translate-x-full transition-transform duration-300 md:hidden z-50">
     <div class="flex justify-end p-6">
         <img src="assets/shared/icon-close.svg" class="w-6 h-6 cursor-pointer" id="icon-close">
@@ -102,31 +101,48 @@
         </a>
     </div>
 </div>
-    <section class="min-h-screen flex items-center">
-        <div class=" flex flex-col py-6 lg:max-w-[1110px] lg:py-0 w-full mx-auto justify-between items-center px-6 lg:flex-row">
-            <div class="max-w-[540px] w-full flex items-center flex-col gap-6 lg:items-start">
-            <h5 class="font-barlowCondensed text-[16px] tracking-[0.15] md:text-[28px] tracking-[4px] lg:text-[28px] text-[#d0d6f9] lg:tracking-[4px]">
-                SO YOU WANT TO TRAVEL TO
-            </h5>
-
-            <h2 class="font-bellefair text-[80px] md:text-[144px] lg:text-[144px] leading-none text-white">
-                SPACE
-            </h2>
-
-            <p class="font-barlow text-center text-[15px] leading-[1.8] text-[#d0d6f9] tracking-[0] font-normal md:text-[16px] lg:text-start lg:text-[18px]">
-                Let's face it; if you want to go to space, you might as well genuiely go to outer
-                space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly 
-                out of this world experinece!
-            </p>
+    <section class="gap-2 p-5 md:p-10 lg:px-24">
+        <div class="gap-5 flex justify-center flex-col md:gap-6">
+            <div class="gap-5 flex justify-center items-center text-[16px] tracking-[1.5px] font-barlowCondensed text-white md:justify-start md:gap-5 md:text-[20px]">
+                <div class=" text-opacity-25 font-bold">01</div>
+                <div class="font-normal ">PICK YOUR DESTINATION</div>
             </div>
-            <div class="h-[382px] flex justify-center items-center lg:h-auto lg:justify-start lg:items-start">
-                <div class="h-[144px] w-[144px] md:h-[272px] md:w-[272px] lg:h-[272px] lg:w-[272px] bg-white rounded-full flex items-center justify-center">
-                    <h5 class="font-bellefair text-[18px] md:text-[32px] lg:text-[32px] text-[#0B0D17] tracking-[1.4px]">
-                        EXPLORE
-                    </h5>
-                </div>
+            <div class="gap-6  flex-col py-5 flex justify-center items-center lg:flex-row lg:gap-8">
+               <div class="md:py-5 lg:px-5 ">
+                    <img src="assets/destination/image-moon.webp" class="h-[150px] w-[150px] md:h-[300px] md:w-[300px] lg:h-[480px] lg:w-[480px] max-w-none" alt="" id="destination-image">
+                </div> 
+               <div class="flex flex-col gap-8 md:gap-10 md:px-20">
+                    <div class=" flex flex-row gap-8 text-white font-barlowCondensed  uppercase tracking-[1.5px] justify-center uppercase font-normal text-[14px] md:text-[16px] md:tracking-[2px] lg:justify-start lg:text-[16px]" id="destination-nav" >
+                        <button class="nav-btn relative pb-2" data-destination="moon">Moon
+                            <span class="underline absolute left-0 bottom-0 w-full h-[2px] bg-white scale-x-0 transition-transform duration-300"></span>
+                        </button>
+                        <button class="nav-btn relative pb-2" data-destination="mars">Mars
+                            <span class="underline absolute left-0 bottom-0 w-full h-[2px] bg-white scale-x-0 transition-transform duration-300"></span>
+                        </button>
+                        <button class="nav-btn relative pb-2" data-destination="europa">Europa
+                            <span class="underline absolute left-0 bottom-0 w-full h-[2px] bg-white scale-x-0 transition-transform duration-300"></span>
+                        </button>
+                        <button class="nav-btn relative pb-2" data-destination="titan">Titan
+                            <span class="underline absolute left-0 bottom-0 w-full h-[2px] bg-white scale-x-0 transition-transform duration-300"></span>
+                        </button>
+                    </div>
+                    <div class="gap-4 flex flex-col">
+                        <div class="text-white font-bellefair text-[56px] flex justify-center md:text-[80px] lg:justify-start lg:text-[96px]" id="destination-name">MOON</div>
+                        <div class="text-[#D0D6f9] text-center font-barlow leading-[1.8] text-[15px] md:text-[16px] lg:text-start lg:text-[18px]" id="destination-description">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</div>
+                    </div>
+                    <div class="w-full h-1 bg-white bg-opacity-25"></div>
+                    <div class="flex flex-col gap-6 md:flex-row md:justify-center md:gap-6 lg:justify-start lg:items-start">
+                        <div class="flex gap-3 justify-center flex-col items-center md:w-full lg:w-full lg:justify-start lg:items-start">
+                            <div class="font-barlowCondensed text-[#D0D6f9] leading-[2px] text-[14px]">AVG. DISTANCE</div>
+                            <div class="font-bellefair text-white text-[28px]" id="destination-distance">384,400 kM</div>
+                        </div>
+                        <div class="flex gap-3 justify-center flex-col items-center md:w-full lg:w-full lg:justify-start lg:items-start">
+                            <div class="font-barlowCondensed text-[#D0D6f9] leading-[2px] text-[14px] ">EST. TRAVEL TIME</div>
+                            <div class="font-bellefair text-white text-[28px]" id="destination-time" >3 DAYS</div>
+                        </div>
+                    </div>
+               </div>
             </div>
-
         </div>
     </section>
     <script src="script.js"></script>

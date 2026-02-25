@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Space Tourism</title>
+    <title>Technology</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,23 +15,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-        <script>
-            tailwind.config = {
-            theme: {
-                extend: {
-                fontFamily: {
-                    barlow: ['Barlow', 'sans-serif'],
-                    barlowCondensed: ['Barlow Condensed', 'sans-serif'],
-                    bellefair: ['Bellefair', 'serif'],
-                }
-                }
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            fontFamily: {
+                barlow: ['Barlow', 'sans-serif'],
+                barlowCondensed: ['Barlow Condensed', 'sans-serif'],
+                bellefair: ['Bellefair', 'serif'],
             }
             }
-        </script>
+        }
+        }
+    </script>
     
 </head>
-<body  class="bg-[url('assets/home/background-home-mobile.jpg')] md:bg-[url('assets/home/background-home-tablet.jpg')] lg:bg-[url('assets/home/background-home-desktop.jpg')] relative bg-cover bg-center bg-no-repeat min-h-screen">
+<body class="bg-[url(assets/technology/background-technology-mobile.jpg)] md:bg-[url(assets/technology/background-technology-tablet.jpg)] lg:bg-[url(assets/technology/background-technology-desktop.jpg)] bg-cover bg-no-repeat min-h-screen">
     <header class="flex justify-between py-6 px-6 md:py-0 md:pl-10 md:pr-0 lg:pt-10 lg:px-0 lg:-space-x-8 ">
         <div class="flex items-center  gap-10 lg:pl-14">
             <img src="assets/shared/logo.svg" alt="" class="w-10 lg:w-12 md:mr-10">
@@ -41,7 +40,7 @@
             
         </div>
         <div class="flex md:hidden lg:hidden" id="icon-hamburger">
-            <img src="assets/shared/icon-hamburger.svg" class="w-6 h-6" alt="" >
+            <img src="assets/shared/icon-hamburger.svg" class="w-6 h-6" alt="">
         </div>
         <div class="bg-[rgba(255,255,255,0.05)] px-[60px] flex gap-10 items-center w-full h-[96px] justify-end backdrop-blur-lg hidden md:flex lg:flex">
                 <nav class="nav-link flex items-center gap-2 h-full border-b-2 border-transparent">
@@ -68,7 +67,7 @@
                         <div class="font-barlowCondensed font-normal text-[16px] tracking-[1.4px] text-white">CREW</div>
                     </a>
                 </nav>
-                <nav class="nav-link flex items-center gap-2 h-full border-b-2 border-transparent" >
+                <nav class="nav-link flex items-center  h-full border-b-2 border-transparent" >
                     <a href="technology.html" class="flex gap-2">
                         <div class="font-barlowCondensed font-bold text-[16px] tracking-[2.7px] text-white">
                             03
@@ -79,7 +78,7 @@
             </div>
             
     </header>
-<div id="mobile-menu" class="fixed top-0 right-0 h-screen w-[70%] bg-white/5 backdrop-blur-lg flex flex-col translate-x-full transition-transform duration-300 md:hidden z-50">
+    <div id="mobile-menu" class="fixed top-0 right-0 h-screen w-[70%] bg-white/5 backdrop-blur-lg flex flex-col translate-x-full transition-transform duration-300 md:hidden z-50">
     <div class="flex justify-end p-6">
         <img src="assets/shared/icon-close.svg" class="w-6 h-6 cursor-pointer" id="icon-close">
     </div>
@@ -102,31 +101,38 @@
         </a>
     </div>
 </div>
-    <section class="min-h-screen flex items-center">
-        <div class=" flex flex-col py-6 lg:max-w-[1110px] lg:py-0 w-full mx-auto justify-between items-center px-6 lg:flex-row">
-            <div class="max-w-[540px] w-full flex items-center flex-col gap-6 lg:items-start">
-            <h5 class="font-barlowCondensed text-[16px] tracking-[0.15] md:text-[28px] tracking-[4px] lg:text-[28px] text-[#d0d6f9] lg:tracking-[4px]">
-                SO YOU WANT TO TRAVEL TO
-            </h5>
-
-            <h2 class="font-bellefair text-[80px] md:text-[144px] lg:text-[144px] leading-none text-white">
-                SPACE
-            </h2>
-
-            <p class="font-barlow text-center text-[15px] leading-[1.8] text-[#d0d6f9] tracking-[0] font-normal md:text-[16px] lg:text-start lg:text-[18px]">
-                Let's face it; if you want to go to space, you might as well genuiely go to outer
-                space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly 
-                out of this world experinece!
-            </p>
+    <section class="gap-2 flex flex-col mt-4 md:py-10 lg:ml-36">
+        <div class="flex justify-center font-barlowCondensed text-[16px] gap-6 mb-8 md:justify-start md:ml-10 md:mb-12 md:text-[20px] ">
+            <span class="font-barlowCondensed text-white text-opacity-25 font-bold">03</span>
+            <span class="text-white font-normal">SPACE LAUNCH 101</span>
+        </div>
+        <div class="lg:flex lg:flex-row-reverse lg:gap-3 items-center">
+            <div>
+                <img src="assets/technology/image-launch-vehicle-portrait.jpg" class="h-[258px] w-full md:hidden" alt="" id="tech-Img-Por">
+                <img src="assets/technology/image-launch-vehicle-landscape.jpg" class=" hidden h-[357px] w-full md:inline-flex lg:w-[608px] lg:max-w-none" alt="" id="tech-Img-land">
             </div>
-            <div class="h-[382px] flex justify-center items-center lg:h-auto lg:justify-start lg:items-start">
-                <div class="h-[144px] w-[144px] md:h-[272px] md:w-[272px] lg:h-[272px] lg:w-[272px] bg-white rounded-full flex items-center justify-center">
-                    <h5 class="font-bellefair text-[18px] md:text-[32px] lg:text-[32px] text-[#0B0D17] tracking-[1.4px]">
-                        EXPLORE
-                    </h5>
+            <div class="mt-6 lg:flex lg:gap-[64px] lg:items-center">
+                <div class="flex justify-center gap-4 mb-8 text-[18px] md:text-[24px] lg:flex-col lg:gap-8" id="tech-button">
+                    <div class="border border-white/25 h-10 w-10 cursor-pointer rounded-full flex justify-center items-center md:h-14 md:w-14 transition-all duration-300" data-technology="technologyA">
+                        <span class="text-white font-bellefair tech-btn">1</span>
+                    </div>
+                    <div class="border border-white/25 h-10 w-10 cursor-pointer rounded-full flex justify-center items-center md:h-14 md:w-14 transition-all duration-300" data-technology="technologyB">
+                        <span class="text-white font-bellefair tech-btn">2</span>
+                    </div>
+                    <div class="border border-white/25 h-10 w-10 cursor-pointer rounded-full flex justify-center items-center md:h-14 md:w-14 transition-all duration-300" data-technology="technologyC">
+                        <span class="text-white font-bellefair tech-btn">3</span>
+                    </div>
+                </div>
+                <div class="gap-4 px-6 pb-12 md:px-28 lg:px-0" >
+                    <div class="font-bellefair gap-4 flex flex-col justify-center items-center lg:justify-start lg:items-start">
+                        <span class="text-white text-opacity-50 text-[18px] md:text-[32px] lg:text-[32px]">THE TERMINOLOGY…</span>
+                        <span class="text-[24px] text-white font-normal md:text-[56px] lg:text-[56px]" id="tech-title">LAUNCH VEHICLE</span>
+                    </div>
+                    <div class="font-barlow leading-[1.8] text-center text-[#D0D6F9] text-[15px] md:text-[18px] lg:text-start lg:text-[18px]" id="tech-desc">
+                        A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
     <script src="script.js"></script>

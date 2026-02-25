@@ -1,1 +1,13 @@
+.nav-btn .underline {
+  transform: scaleX(0);
+}
 
+.nav-btn.active .underline {
+  transform: scaleX(1);
+}
+/* .navigation-btn .dot{
+  transform: scaleX(0);
+}
+.navigation-btn.active .dot{
+ transform: scaleX(1); 
+} */
